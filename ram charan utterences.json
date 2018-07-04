@@ -1,0 +1,407 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "boss",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel",
+                        "stop interacting to me",
+                        "just stop for now"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "how to use this skill",
+                        "gudie me",
+                        "can u help me",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "we can play later",
+                        "some other time",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "one",
+                    "slots": [],
+                    "samples": [
+                        "first animal",
+                        "first",
+                        "one"
+                    ]
+                },
+                {
+                    "name": "two",
+                    "slots": [],
+                    "samples": [
+                        "second animal",
+                        "second",
+                        "two"
+                    ]
+                },
+                {
+                    "name": "three",
+                    "slots": [],
+                    "samples": [
+                        "third animal",
+                        "third",
+                        "three"
+                    ]
+                },
+                {
+                    "name": "four",
+                    "slots": [],
+                    "samples": [
+                        "fourth animal",
+                        "fourth",
+                        "four"
+                    ]
+                },
+                {
+                    "name": "five",
+                    "slots": [],
+                    "samples": [
+                        "fifth animal",
+                        "fifth",
+                        "five"
+                    ]
+                },
+                {
+                    "name": "six",
+                    "slots": [],
+                    "samples": [
+                        "sixth animal",
+                        "sixth",
+                        "six"
+                    ]
+                },
+                {
+                    "name": "seven",
+                    "slots": [],
+                    "samples": [
+                        "seventh",
+                        "seventh animal",
+                        "seven"
+                    ]
+                },
+                {
+                    "name": "eight",
+                    "slots": [],
+                    "samples": [
+                        "eighth animal",
+                        "eighth",
+                        "eight"
+                    ]
+                },
+                {
+                    "name": "nine",
+                    "slots": [],
+                    "samples": [
+                        "nineth animal",
+                        "nineth",
+                        "nine"
+                    ]
+                },
+                {
+                    "name": "ten",
+                    "slots": [],
+                    "samples": [
+                        "tenth animal",
+                        "tenth ",
+                        "ten"
+                    ]
+                },
+                {
+                    "name": "eleven",
+                    "slots": [],
+                    "samples": [
+                        "eleventh animal",
+                        "eleventh ",
+                        "eleven"
+                    ]
+                },
+                {
+                    "name": "twelve",
+                    "slots": [],
+                    "samples": [
+                        "twelveth animal",
+                        "twelveth ",
+                        "twelve"
+                    ]
+                },
+                {
+                    "name": "thirteen",
+                    "slots": [],
+                    "samples": [
+                        "thirteenth animal",
+                        "thirteenth",
+                        "thirteen"
+                    ]
+                },
+                {
+                    "name": "fourteen",
+                    "slots": [],
+                    "samples": [
+                        "fourteenth animal",
+                        "fourteenth",
+                        "fourteen"
+                    ]
+                },
+                {
+                    "name": "fifteen",
+                    "slots": [],
+                    "samples": [
+                        "fifteenth animal",
+                        "fifteen",
+                        "fifteenth"
+                    ]
+                },
+                {
+                    "name": "sixteen",
+                    "slots": [],
+                    "samples": [
+                        "sixteenth animal",
+                        "sixteenth",
+                        "sixteen"
+                    ]
+                },
+                {
+                    "name": "seventeen",
+                    "slots": [],
+                    "samples": [
+                        "seventeenth animal",
+                        "seventeenth",
+                        "seventeen"
+                    ]
+                },
+                {
+                    "name": "eighteen",
+                    "slots": [],
+                    "samples": [
+                        "eighteenth animal",
+                        "eighteenth",
+                        "eighteen"
+                    ]
+                },
+                {
+                    "name": "ninteen",
+                    "slots": [],
+                    "samples": [
+                        "ninteenth animal",
+                        "ninteenth",
+                        "ninteen"
+                    ]
+                },
+                {
+                    "name": "twenty",
+                    "slots": [],
+                    "samples": [
+                        "tweenth animal",
+                        "tweenth",
+                        "twenty"
+                    ]
+                },
+                {
+                    "name": "checking",
+                    "slots": [
+                        {
+                            "name": "animal",
+                            "type": "AMAZON.Animal"
+                        }
+                    ],
+                    "samples": [
+                        "the animal is {animal}"
+                    ]
+                },
+                {
+                    "name": "Unhandled",
+                    "slots": [],
+                    "samples": [
+                        "i dont know",
+                        "who knows",
+                        "how can i know",
+                        "i cant tell",
+                        "what is this animal",
+                        "sounds of animals",
+                        "animal sounds",
+                        "sounds",
+                        "animals",
+                        "small",
+                        "big",
+                        "this is not an animal something else",
+                        "unhandled",
+                        "this is an unhandled intent",
+                        "this is an unhandled"
+                    ]
+                },
+                {
+                    "name": "launchintent",
+                    "slots": [],
+                    "samples": [
+                        "play",
+                        "play from first",
+                        "start game",
+                        "start"
+                    ]
+                },
+                {
+                    "name": "qone",
+                    "slots": [],
+                    "samples": [
+                        "quiz question one",
+                        "quiz one",
+                        "qone"
+                    ]
+                },
+                {
+                    "name": "qtwo",
+                    "slots": [],
+                    "samples": [
+                        "quiz question two",
+                        "quiz two",
+                        "qtwo"
+                    ]
+                },
+                {
+                    "name": "qthree",
+                    "slots": [],
+                    "samples": [
+                        "qthree",
+                        "quiz three",
+                        "quiz question three"
+                    ]
+                },
+                {
+                    "name": "qfour",
+                    "slots": [],
+                    "samples": [
+                        "quiz four",
+                        "qfour",
+                        "quiz question four"
+                    ]
+                },
+                {
+                    "name": "qfive",
+                    "slots": [],
+                    "samples": [
+                        "quiz question five",
+                        "quiz five",
+                        "qfive"
+                    ]
+                },
+                {
+                    "name": "qsix",
+                    "slots": [],
+                    "samples": [
+                        "quiz six",
+                        "quiz question six",
+                        "qsix"
+                    ]
+                },
+                {
+                    "name": "qseven",
+                    "slots": [],
+                    "samples": [
+                        "quiz question seven",
+                        "quiz seven",
+                        "qseven"
+                    ]
+                },
+                {
+                    "name": "qeight",
+                    "slots": [],
+                    "samples": [
+                        "quiz eight",
+                        "qeight",
+                        "quiz question eight"
+                    ]
+                },
+                {
+                    "name": "qnine",
+                    "slots": [],
+                    "samples": [
+                        "quiz nine",
+                        "quiz question nine",
+                        "qnine"
+                    ]
+                },
+                {
+                    "name": "qten",
+                    "slots": [],
+                    "samples": [
+                        "qten",
+                        "quiz ten",
+                        "quiz question ten"
+                    ]
+                },
+                {
+                    "name": "endquiz",
+                    "slots": [],
+                    "samples": [
+                        "stop playing quiz",
+                        "exit quiz",
+                        "play quiz after sometime",
+                        "end quiz"
+                    ]
+                },
+                {
+                    "name": "answer",
+                    "slots": [
+                        {
+                            "name": "ans",
+                            "type": "checking"
+                        }
+                    ],
+                    "samples": [
+                        "{ans} you are wrong",
+                        "{ans} you are correct"
+                    ]
+                },
+                {
+                    "name": "startquiz",
+                    "slots": [],
+                    "samples": [
+                        "play quiz now",
+                        "start playing quiz",
+                        "start quiz",
+                        "play quiz"
+                    ]
+                },
+                {
+                    "name": "quizinstructions",
+                    "slots": [],
+                    "samples": [
+                        "quiz gudieliness",
+                        "how to play quiz",
+                        "quiz instructions",
+                        "instructions for quiz"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "checking",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "false"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "true"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
